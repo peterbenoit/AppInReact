@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<!-- <link rel="stylesheet" type="text/css" href="css/ghpages-materialize.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/ghpages-materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/styleguide.css">
+	<link rel="stylesheet" type="text/css" href="css/styles_v6.css">
+	<style>
+	/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);*/
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+ body {
+	background-color: #fff; /*#2d2d2d;*/
+	font-family:'Roboto';
+	color: #2d2d2d;
+	font-weight: 300;
+}
+h1 {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 42px;
+}
+/*.navigation {
+	width: 200px;
+	text-transform: uppercase;
+	float: right;
+}
+.navigation ul {
+	background-color: #37383a;
+	color:#fff;
+	cursor: pointer;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.navigation .header {
+	padding: 15px;
+	background-color: #4e5053;
+}
+.navigation li {
+	padding: 15px;
+}
+.navigation .selected {
+	background-color: #9061b2;
+}*/
+.score {
+	font-size: 36px;
+	margin: 15px;
+	color: #afb3b9;
+}
+.title {
+	font-size: 18px;
+}
+.title a {
+	text-decoration: none;
+	color: #2d2d2d;
+}
+.author {
+	font-size: 16px;
+}
+.author b {
+	color: #afb3b9;
+}
+/*
+#overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #000;
+	opacity: 0.8;
+	z-index: 9999;
+	filter: alpha(opacity=80);
+}
+#loading {
+	width: 50px;
+	height: 57px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -28px 0 0 -25px;
+}*/
+
+/*#timer {
+	background:yellow;
+	position:absolute;
+	top:0;
+	right:0;
+	width:100px;
+		margin:0;
+	padding:10px;
+	color: #2d2d2d;
+}*/
+
+.card .card-title {
+	background:#8BC34A;
+	   opacity: 0.8;
+	filter: alpha(opacity=80); 
+	right:0;
+	color:#212121;
+}
+
+nav {
+	background: #388E3C;
+}
+
+.mdl-card {
+  width: 50%;
+  min-height: 100px;
+  margin-left: 280px;
+}
+
+ul.side-nav.fixed li a {
+	font-size:16px;
+	font-weight: 400!important;
+}
+	</style>
+
+</head>
+<body>
+<div id="container"></div>
+
+<div class="mdl-card mdl-grid mdl-shadow--2dp index-list-right">
+	<div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+		<img src="http://www.cdc.gov/homepage/images/whats-new/ebola-one-year-report_285px.jpg" alt="" />
+	</div>
+	<div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone index-inner">
+		<a class="small-link" href="#">Category/Tag</a>
+		<div class="mdl-card__title">
+			<h3 class="mdl-card__title-text"><a href="#">Short Title</a></h3>
+		</div>
+		<div class="null tn-list--line">
+			<span class="author">Author</span>
+			<span><i class="material-icons">access_time</i> Date/Time</span>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col s12 m7">
+		<div class="card">
+			<div class="card-image">
+				<img src="http://www.cdc.gov/homepage/images/whats-new/ebola-one-year-report_285px.jpg" alt="" />
+				<span class="card-title">Short Title</span>
+			</div>
+			<div class="card-content">
+				<p>Short Description</p>
+				<p class="author">
+					Posted by <b>Author</b>
+				</p>
+			</div>
+			<div class="card-action">
+				<a href="#" target="_blank">This is a link</a>
+			</div>
+		</div>  
+	</div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/JSXTransformer.js"></script>
+<script type="text/javascript" src="js/react-with-addons.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+
+<script type="text/jsx">
+/**
+ * Using React 0.13.2
+ * Updated 2015-07-14
+ */
+var decodeEntities = (function() {
+ // this prevents any overhead from creating the object each time
+ var element = document.createElement('div');
+ 
+ function decodeHTMLEntities (str) {
+	 if(str && typeof str === 'string') {
+		 // strip script/html tags
+		 str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
+		 str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+		 element.innerHTML = str;
+		 str = element.textContent;
+		 element.textContent = '';
+	 }
+	 
+	 return str;
+ }
+ 
+ return decodeHTMLEntities;
+})();
+var loading = function(arg) {
+	if(arg) {
+		$('html,body').animate({
+            scrollTop: 0
+        }, 50);
+        disableScroll()
+		// add the overlay with loading image to the page
+		var over = '<div id="overlay"><img id="loading" src="http://bit.ly/pMtW1K"></div>';
+		$(over).appendTo('body');
+
+		// click on the overlay to remove it
+		//$('#overlay').click(function() {
+		//    $(this).remove();
+		//});
+
+		// hit escape to close the overlay
+		$(document).keyup(function(e) {
+			if (e.which === 27) {
+				$('#overlay').remove();
+				enableScroll();
+			}
+		});
+	}
+	else {
+		$('#overlay').remove();
+		enableScroll();
+	}
+};
+
+// left: 37, up: 38, right: 39, down: 40,
+// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+var keys = {37: 1, 38: 1, 39: 1, 40: 1};
+
+function preventDefault(e) {
+  e = e || window.event;
+  if (e.preventDefault)
+      e.preventDefault();
+  e.returnValue = false;  
+}
+
+function preventDefaultForScrollKeys(e) {
+    if (keys[e.keyCode]) {
+        preventDefault(e);
+        return false;
+    }
+}
+
+function disableScroll() {
+  if (window.addEventListener) // older FF
+      window.addEventListener('DOMMouseScroll', preventDefault, false);
+  window.onwheel = preventDefault; // modern standard
+  window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+  window.ontouchmove  = preventDefault; // mobile
+  document.onkeydown  = preventDefaultForScrollKeys;
+}
+
+function enableScroll() {
+    if (window.removeEventListener)
+        window.removeEventListener('DOMMouseScroll', preventDefault, false);
+    window.onmousewheel = document.onmousewheel = null; 
+    window.onwheel = null; 
+    window.ontouchmove = null;  
+    document.onkeydown = null;  
+}
+
+var NavigationItem = React.createClass({
+	onClick: function() {
+		this.props.itemSelected(this.props.item);
+	},
+	render: function() {
+		return (
+			<li onClick={this.onClick} className={this.props.selected ? "selected" : ""}>
+				<a className="waves-effect waves-teal">{this.props.item.name}</a>
+			</li>
+		);
+	}
+});
+
+var Navigation = React.createClass({
+	setSelectedItem: function(item) {
+		this.props.itemSelected(item);
+	},
+	render: function() {
+		var _this = this;
+
+		var items = this.props.items.map(function(item) {
+			return (
+				<NavigationItem key={item.id}
+					item={item} itemSelected={_this.setSelectedItem}
+					selected={item.id === _this.props.activeUrl} />
+			);
+		});
+
+		return (
+			<header>
+				<ul className="side-nav fixed">
+					{items}
+				</ul>
+			</header>
+		);
+	}
+});
+
+var StoryList = React.createClass({
+	render: function() {
+		var storyNodes = this.props.items.map(function(item) {
+			var name = decodeEntities(item.name);
+			return (
+				<div className="row" key={item.id}>
+					<div className="col s12 m7">
+						<div className="card">
+							<div className="card-image">
+								<img src={item.thumbnailUrl} />
+								<span className="card-title">{name}</span>
+							</div>
+							<div className="card-content">
+								<p>{item.description}</p>
+								<p className="authors">
+									Posted by <b>{item.maintainingOrgName}</b>
+								</p>
+							</div>	
+							<div className="card-action">
+								<a href={item.targetUrl} target="_blank"><i className="material-icons">link</i></a>
+							</div>
+						</div>  
+					</div>
+				</div>  
+			);
+		});
+
+		return (
+			<main>
+				<nav className="top-nav">
+					<div className="container">
+						<div className="nav-wrapper"><a className="page-title">{this.props.state.title}</a></div>
+					</div>
+				</nav>			
+				<div className="container">
+					<div className="row">
+						{storyNodes}
+					</div>
+				</div>
+			</main>
+		);
+	}
+});
+
+// var Nav = React.createClass({});
+
+var App = React.createClass({
+	componentDidMount: function() {
+		var _this = this;
+		var cbname = "fn" + Date.now();
+		var script = document.createElement("script");
+		script.src = "https://tools.cdc.gov/api/v2/resources/topics?max=0&mediatype=&showchild=false&callback=" + cbname;
+		window[cbname] = function(jsonData) {
+			_this.setState({
+				navigationItems: jsonData.results
+			});
+			delete window[cbname];
+		};
+
+		document.head.appendChild(script);
+	},
+	getInitialState: function() {
+		return ({
+			activeNavigationUrl: "",
+			navigationItems: [],
+			storyItems: [],
+			title: "Card Types"
+		});
+	},
+
+	render: function() {
+		return (
+			<div>
+				<Navigation activeUrl={this.state.activeNavigationUrl}
+					items={this.state.navigationItems}
+					itemSelected={this.setSelectedItem} />
+				<StoryList items={this.state.storyItems} state={this.state} />
+			</div>
+		);
+	},
+	setSelectedItem: function(item) {
+		var _this = this;
+		var cbname = "fn" + Date.now();
+		var script = document.createElement("script");
+		var src = "https://tools.cdc.gov/api/v2/resources/media?fields=id,name,thumbnailUrl,targetUrl,description,maintainingOrgName&max=12&pagenum=1&sort=-datemodified&topicid=" + item.id + "&callback=" + cbname;
+		script.src = src;
+		var start = Date.now();
+		Materialize.toast('Loading API...', 1000);
+		
+		window[cbname] = function(jsonData) {
+			var end = Date.now();
+			var time = (end-start)/1000;
+			Materialize.toast('Time to load: ' + time + ' seconds.', 4000);
+			_this.setState({storyItems: jsonData.results});
+			delete window[cbname];
+		};
+		
+		document.head.appendChild(script);
+
+		this.setState({
+			activeNavigationUrl: item.id,
+			title: item.name
+		});
+	}
+});
+
+React.render(
+	<App />,
+	document.getElementById('container')
+);
+
+// React.render(
+// 	<Nav />,
+// 	document.body
+// );
+</script>
+</body>
+</html>

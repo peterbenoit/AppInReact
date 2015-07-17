@@ -1,0 +1,1563 @@
+
+
+.page-content {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+
+i { 
+  visibility: visible;
+}
+
+.logo1 a {
+  text-decoration:none; color:white; font-weight:300; text-transform:uppercase; font-size:18px;
+}
+
+.logo2 a {
+  text-decoration:none; color:black; font-weight:300; text-transform:uppercase; font-size:18px; 
+}
+
+.icon {
+  background-image: url(/static/images/sprite.png); 
+  width: 24px;
+  height: 24px;
+}
+
+
+
+.mdl-mega-footer {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.mdl-mega-footer a {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+
+header img {
+  width: 100%;
+  margin: 0;
+  padding: 4px;
+}
+
+.small-link {
+  font-size: 12px;
+  font-weight: 300;
+  text-decoration: none;
+  float: left;
+}
+
+
+
+
+.rb {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+}
+
+
+.mdl-right-card__title-text {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.mdl-right-card__title-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.mdl-right-card__supporting-text {
+  font-size: 10px;
+  position: absolute;
+  bottom: 8px;
+}
+
+
+
+.mdl-card__title-text a {
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.mdl-trending-card__supporting-text {
+  font-size: 10px;
+}
+
+
+.round {
+  background-color: #f9f9f9;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border-radius: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.tags button {
+  margin-right: 4px;
+  width: 100%;
+  font-size: 14px;
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+.article-tags {
+}
+
+.article-tags button {
+  font-weight: 300;
+  text-transform: none;
+  background-color: orange;
+  color: white;
+  margin-right: 4px;
+  margin-bottom: 8px;
+}
+
+
+.head {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-left: 16px;
+}
+
+
+.null {
+  margin: 0;
+  padding: 0;
+}
+
+
+.btn {
+  min-height: 12px;
+  margin-right: 8px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  padding:8px;
+  font-weight: 300;
+  background-color: #FDD835;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+.fs {
+  padding:8px 12px 8px 12px;
+  color: white;
+  background-color: #DD2C00;
+  margin-bottom: 16px;
+}
+
+.btn i {
+  font-size: 10px;
+  margin-left:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tn-list {
+  width: 100%;
+}
+
+
+.tn-list h3 a:hover {
+  color: #3372DF;
+
+}
+
+.tn-list h3 a:active {
+  color: #ff4081;
+}
+
+
+.tn-list .mdl-card__supporting-text {
+  width: 95%;
+  margin: 0;
+  padding: 0;
+}
+
+.tn-list-inner {
+  padding:4px;
+}
+
+.tn-list img {
+  margin-right: 6px;
+  width: 97%;
+}
+
+.tn-list h2 {
+  padding-right: 16px;
+}
+
+.tn-list h2 i {
+  font-size:14px; color:#999;
+}
+
+.tn-list--line {
+  font-size:10px;
+  line-height:24px;
+  margin-right:16px;
+  margin-bottom:4px;
+  text-transform:uppercase;
+}
+
+.tn-list--line span {
+  line-height:24px; float:left; margin-right:8px; 
+}
+
+.tn-list--line span i {
+  width:14px;
+  margin-right:0px;
+  margin-left: 0px; 
+  float:left;
+  font-size:12px;
+  line-height:22px !important;
+}
+
+.tn-list--line .related i {
+  font-size:10px;
+  line-height:23px !important;
+  float: right;
+  margin-left: 3px;
+}
+
+.tn-list--line span a {
+  text-decoration:none;
+  color: #3372DF;
+}
+
+.tn-list--line span .related {
+  text-decoration:none;
+  color: #3372DF;
+}
+
+
+
+
+.tn-list--more {
+  background-color:#f9f9f9; height:45px; text-transform:uppercase;
+}
+
+.tn-list--more .ll {
+  margin:0; padding:0; font-size:14px; line-height:28px; float:left; margin-left:8px;font-weight:500;
+}
+
+.tn-list--more .left {
+  font-size:18px; line-height:26px; float:left; margin-right:0px; margin-left:8px;
+}
+
+.tn-list--more .left--text {
+  margin:0; padding:0; font-size:14px; line-height:28px; float:left; margin-left:8px;font-weight:500;
+}
+
+
+.tn-list--more .right {
+   font-size:18px; line-height:26px; float:right; margin-right:8px; margin-left:4px;
+}
+
+.tn-list--more .right--text {
+  margin:0; padding:0; font-size:14px; line-height:27px; float:right; margin-right:0px; font-weight:500;
+}
+
+.tn-list--more a {
+  color: black;
+  text-decoration: none;
+}
+
+.author {
+  color: #558B2F;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tn-line {
+  line-height:24px; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tn-line:hover {
+  background-color: #f6f6f6;
+}
+
+.tn-line:hover a {
+  color: #3372DF;
+}
+
+
+.tn-line:active a {
+  color: #ff4081;
+}
+
+
+.tn-line .author--box {
+  margin:0; padding:0; line-height:24px; margin-right:16px; margin-bottom:0px; float: left; font-size: 10px; color: #558B2F; text-transform: uppercase;
+}
+
+.tn-line .author--circle {
+  width:24px; height:24px; border-radius:16px; margin-right:4px; float:left;
+}
+
+
+.tn-line .added {
+  color: #333;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.tn-line i {
+  font-size: 10px;
+}
+
+.line h5 {
+  font-size: 14px;
+}
+
+.line .author {
+  color: #ccc; margin-right: 8px;
+
+}
+
+.line .added {
+  color: #333; 
+  text-align: right;
+}
+
+.line a {
+  margin-right: 4px; color: #283593;
+}
+
+.inner {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+
+
+.tn-article {
+  width: 100%;
+  min-width: 320px;
+}
+
+.tn-article .title {
+  margin:13px; 
+  margin-bottom: 0;
+  width: 100%;
+}
+
+
+.tn-article h1 {
+  font-size: 38px;
+  line-height: 44px;
+  margin:8px 0px 8px 0;
+}
+
+
+.tn-article .main {
+  font-size:10px; margin:0; padding:0; margin-left:16px; margin-top:0px;
+
+}
+
+
+.tn-article .author--box {
+  margin:0; padding:0; line-height:24px; margin-right:16px; margin-bottom:0px; float: left; font-size: 10px; color: #558B2F;
+}
+
+.tn-article .author--circle {
+  width:24px; height:24px; border-radius:16px; margin-right:4px; float:left;
+}
+
+.tn-article .added {
+  color: #333;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+
+.tn-article .added--box {
+  margin:0; padding:0; line-height:24px; margin-right:16px; margin-bottom:0px;
+}
+
+.tn-article .added--box i {
+  width:16px; margin-right:2px; float:left; font-size:12px; line-height:24px; 
+}
+
+
+.tn-article header img {
+  width: 97%;
+}
+
+.tn-article .mdl-card__supporting-text {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.tn-article .rel_t {
+  margin-top:20px; 
+}
+
+
+.tn-article .inn {
+  padding:8px; padding-top:0; 
+}
+
+
+
+
+
+.src-ico {
+  margin:0; padding:0; width:40px; margin-right: 10px; float: left;
+}
+
+.src-ico div {
+  width:24px; height:24px; border-radius:12px; float:right;
+}
+
+.tn-timeline {
+  padding-bottom: 16px;
+}
+
+.tn-timeline:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.tn-timeline:hover h3 a {
+  color: #3372DF;
+}
+
+.tn-timeline:active h3 a {
+  color: #ff4081;
+}
+
+
+.tn-timeline:active {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.tn-timeline .author {
+  font-size:10px;
+  text-transform: uppercase;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-right: 8px;
+}
+
+.tn-timeline .added {
+  font-size:10px;
+  text-transform: uppercase;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.tn-timeline h3 {
+  color: #283593;
+}
+
+.tn-timeline h3 a {
+  font-size: 19px;
+  line-height: 24px;
+  color: #283593;
+  font-weight: 300;
+}
+
+.tn-timeline h3 i {
+  font-size: 11px;
+  line-height: 19px;
+  margin-left: 0px;
+}
+
+
+.tn-timeline .mdl-card__title-text {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.tn-timeline .mdl-card__supporting-text {
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 0px;
+}
+
+.tn-timeline .added--box {
+  margin:0; padding:0; line-height:24px; margin-right:16px; margin-bottom:0px; float:left;
+}
+
+.tn-timeline .added--box i {
+  width:14px; float:left; font-size:12px; line-height:22px;
+}
+
+
+.tn-timeline .likes {
+  font-size:10px; margin:0; padding:0; line-height:9px; margin-bottom:4px;
+}
+
+.tn-timeline .likes i {
+  width:14px; float:left; font-size:12px; line-height:22px;
+}
+
+
+
+
+.tn-timeline .body {
+  float:none; padding-left:50px; 
+}
+
+.mdl-card {
+  width: 100%;
+  min-height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.mdl-card__supporting-text {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.mdl-card__title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+.head--title {
+  font-size: 24px;
+  margin:16px;
+  padding:16px; 
+  padding-left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+.tn-popular {
+  position:relative; border-bottom:1px solid #e3e3e3; margin:0; padding: 0;
+  width: 100%;
+}
+
+.tn-popular:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.tn-popular:active {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.tn-popular:hover h3 a {
+  color:#3372DF;
+}
+
+.tn-popular:active h3 a {
+  color: #ff4081;
+}
+
+
+
+.tn-popular h3 a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  font-weight: 400;
+}
+
+.tn-popular h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin-left: 8px;
+  width: 100%;
+}
+
+.tn-popular img {
+  width: 97%;
+}
+
+.tn-popular .mdl-card__title {
+  margin-bottom: 4px;
+  margin-left: 4px;
+  margin-top: 12px;
+  width: 90%;
+}
+
+
+.tn-popular .mdl-card__supporting-text {
+  margin: 0;
+  padding: 0;
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+
+.tn-popular .left {
+  font-size: 10px; margin-right: 8px;
+}
+
+.tn-popular .center {
+  font-size: 10px; margin-right: 8px;
+  color: #3372DF;
+}
+
+.tn-popular .right {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+
+
+
+.tn-article .mdl-menu__container {
+  margin-right: 16px;
+}
+
+
+
+
+
+.tn-trending {
+  border-bottom:1px solid #e3e3e3;
+  width:100%;
+  padding-bottom: 0px;
+}
+
+.tn-trending:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.tn-trending:hover h3 a {
+    color:#3372DF;
+}
+
+.tn-trending:active h3 a {
+  color: #ff4081;
+}
+
+.tn-trending .nums {
+  margin:0;padding:0; margin-right:8px; min-width:34px;
+}
+
+.tn-trending .bline {
+  margin-bottom: 8px;
+}
+
+.tn-trending .sico {
+  float:left; font-size:12px; line-height:22px; margin-right:2px; 
+}
+
+.tn-trending .likes {
+  font-size:10px; margin-right:8px; 
+}
+
+.tn-trending .rel {
+  font-size:10px; margin-right:8px; color:#3372DF;
+}
+
+.tn-trending .rtime {
+  font-size:10px; text-transform:uppercase; color:grey; float:right; line-height:24px;
+}
+
+.tn-trending .tico {
+  float:right; font-size:12px; line-height:22px; margin-right:2px;  margin-left:2px;color:grey;
+}
+
+.tn-trending h3 a {
+  color: #444;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tn-trending .mdl-card__supporting-text {
+  font-size: 10px;
+}
+
+.tn-trending .left {
+  margin-right: 8px;
+  background-color: blue;
+  line-height: 20px;
+}
+
+
+
+.tn-trending .right {
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+
+
+
+.tn-reltop {
+  min-height:16px;
+  padding:8px 8px 8px 8px;
+}
+
+.tn-reltop .btn {
+  margin: 4px;
+}
+
+
+
+.tn-relsto {
+  position:relative; border-bottom:1px solid #e3e3e3;
+  margin:0;
+  padding: 0;
+  width: 100%;
+}
+
+.tn-relsto:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.tn-relsto:hover h3 a {
+    color:#3372DF;
+}
+
+.tn-relsto:active h3 a {
+  color: #ff4081;
+}
+
+
+.tn-relsto:active {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+
+
+
+.tn-relsto header {
+  padding-right:8px;
+}
+
+.tn-relsto h3 a {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  margin:0;
+  padding:0;
+}
+
+.tn-relsto .sico {
+  float:left; font-size:12px; line-height:16px; margin-right:2px; 
+}
+
+.tn-relsto .mdl-card__supporting-text {
+  font-size: 10px; margin:0; padding: 0;
+}
+
+.tn-relsto .left {
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+
+.tn-relsto .center {
+  margin-right: 4px;
+  text-transform: uppercase;
+  color: #3372DF;
+}
+
+.tn-relsto .right {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.index-main {
+  padding-bottom:0px
+}
+
+.index-main .header {
+  margin-left:13px; margin-top:13px;
+}
+
+.index-main h1 {
+  font-size:32px; margin:8px 8px 8px 0;
+}
+
+.index-main img {
+  width: 97%;
+}
+
+.index-line {
+  font-size:10px; margin:0; padding:0; margin-left:16px; margin-top:0px;
+}
+
+.index-main .author-box {
+  margin:0; padding:0; line-height:24px; margin-right:16px; margin-bottom:0px;
+  color: #558B2F;
+  text-transform: uppercase;
+}
+
+.index-main .author-box div {
+  width:24px; height:24px; border-radius:16px; margin-right:4px; float:left;
+}
+
+.index-main .added-box {
+  margin:0; padding:0; line-height:24px; margin-right:16px; margin-bottom:0px;
+}
+
+.index-main .added-box a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3372DF;
+}
+
+
+.index-main .added-box i {
+  width:16px; margin-right:2px; float:left; font-size:12px; line-height:24px; 
+}
+
+.index-main .mdl-card__supporting-text {
+  margin: 0;
+  padding: 0;
+  padding: 4px;
+}
+
+.index-main .author-box {
+  font-size: 10px;
+  line-height: 25px;
+}
+
+.index-main h5 {
+  line-height:24px;
+  font-size:14px;
+  font-weight: normal;
+}
+
+
+.index-rel {
+  margin-top: 16px;
+}
+
+
+
+
+
+
+
+
+.index-top {
+
+}
+
+.index-top .item {
+  position:relative; border-bottom:1px solid #e3e3e3; width:100%;
+}
+
+.index-top .item a {
+  display: block;
+}
+
+.index-top .item:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.index-top .item:active {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.index-top .item:hover h3 a {
+    color:#3372DF;
+}
+
+.index-top .item:active h3 a {
+  color: #ff4081;
+}
+
+
+.index-top .item img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.index-top .num {
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #f1f1f1;
+  height: 30px;
+  text-align: center;
+  border-radius: 15px;
+  font-weight:700;
+  width: 30px;
+}
+
+
+.index-top h3 {
+  width:100%;
+  float:left;
+  margin: 0;
+  padding: 0;
+}
+
+.index-top h3 a {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+
+.index-top .left {
+  margin-right: 4px;
+}
+
+.index-top .right {
+}
+
+.index-top .more {
+  width:100%;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.index-top .more i {
+  font-size:14px;
+  line-height: 30px;
+}
+
+.index-top .title {
+  width:100%; float:left;
+}
+
+
+
+
+
+
+
+
+
+
+.index-tabs {
+  min-height:250px;
+  text-align: left;
+}
+
+.index-tabs .item {
+    border-bottom: 1px solid #e3e3e3;
+
+}
+
+.index-tabs .item h5 a {
+  font-size:14px; 
+  line-height: 16px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+
+}
+
+.index-tabs h5 {
+}
+
+.index-tabs .tabs-line {
+  margin:0; padding:0;
+  float: left;
+  width: 100%;
+}
+
+
+.index-tabs .author {
+  font-size: 10px;
+  margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+.index-list-right .more {
+  margin:0; padding:0; font-size:12px; line-height:24px; margin-right:16px; margin-bottom:4px;
+}
+
+
+.index-list-right img {
+  width: 97%;
+}
+
+
+.index-list-right .index-inner {
+  padding: 4px;
+}
+
+
+
+.index-list-right a {
+  display: block;
+}
+
+.index-list-right:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.index-list-right:active {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.index-list-right:hover h3 a {
+    color:#3372DF;
+}
+
+
+.index-list-right:active h3 a {
+  color: #ff4081;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-ABCNews {
+  background-position: -24px 0px;
+}
+.icon-AssociatedPress {
+  background-position: 0px -192px;
+}
+.icon-CNNMoney {
+  background-position: 0px -24px;
+}
+.icon-Euronews {
+  background-position: -24px -24px;
+}
+.icon-IBTimesUK {
+  background-position: -48px 0px;
+}
+.icon-ReutersTV {
+  background-position: -48px -24px;
+}
+.icon-abc-net-au {
+  background-position: 0px -48px;
+}
+.icon-abcnews-com {
+  background-position: -24px -48px;
+}
+.icon-ap-org {
+  background-position: -48px -48px;
+}
+.icon-arstechnica-com {
+  background-position: -72px 0px;
+}
+.icon-bbc-co-uk {
+  background-position: -72px -24px;
+}
+.icon-bbci-co-uk {
+  background-position: -72px -48px;
+}
+.icon-billboard-com {
+  background-position: 0px -72px;
+}
+.icon-bleacherreport-com {
+  background-position: -24px -72px;
+}
+.icon-boston-com {
+  background-position: -48px -72px;
+}
+.icon-breitbart-com {
+  background-position: -72px -72px;
+}
+.icon-businessinsider-com {
+  background-position: -96px 0px;
+}
+.icon-businessweek-com {
+  background-position: -96px -24px;
+}
+.icon-caranddriver-com {
+  background-position: -96px -48px;
+}
+.icon-cbc-ca {
+  background-position: -96px -72px;
+}
+.icon-cbsnews-com {
+  background-position: 0px -96px;
+}
+.icon-cbssports-com {
+  background-position: -24px -96px;
+}
+.icon-chicagotribune-com {
+  background-position: -48px -96px;
+}
+.icon-cio-com {
+  background-position: -72px -96px;
+}
+.icon-cnbc-com {
+  background-position: -96px -96px;
+}
+.icon-cnet-com {
+  background-position: -120px 0px;
+}
+.icon-cnn-com {
+  background-position: -120px -24px;
+}
+.icon-computerworld-com {
+  background-position: -120px -48px;
+}
+.icon-dailycaller-com {
+  background-position: -120px -72px;
+}
+.icon-dailyexpress-co-uk {
+  background-position: -120px -96px;
+}
+.icon-dailymail-co-uk {
+  background-position: 0px -120px;
+}
+.icon-discovery-com {
+  background-position: -24px -120px;
+}
+.icon-economist-com {
+  background-position: -48px -120px;
+}
+.icon-edge-online-com {
+  background-position: -72px -120px;
+}
+.icon-efinancialnews-com {
+  background-position: -96px -120px;
+}
+.icon-elle-com {
+  background-position: -120px -120px;
+}
+.icon-engadget-com {
+  background-position: -144px 0px;
+}
+.icon-entrepreneur-com {
+  background-position: -144px -24px;
+}
+.icon-eonline-com {
+  background-position: -144px -48px;
+}
+.icon-espn-go-com {
+  background-position: -144px -72px;
+}
+.icon-espnfc-com {
+  background-position: -144px -96px;
+}
+.icon-etonline-com {
+  background-position: -144px -120px;
+}
+.icon-ew-com {
+  background-position: 0px -144px;
+}
+.icon-examiner-com {
+  background-position: -24px -144px;
+}
+.icon-financialpost-com {
+  background-position: -48px -144px;
+}
+.icon-forbes-com {
+  background-position: -72px -144px;
+}
+.icon-fortune-com {
+  background-position: -96px -144px;
+}
+.icon-foxbusiness-com {
+  background-position: -120px -144px;
+}
+.icon-foxnews-com {
+  background-position: -144px -144px;
+}
+.icon-geekologie-com {
+  background-position: -168px 0px;
+}
+.icon-gigaom-com {
+  background-position: -168px -24px;
+}
+.icon-gizmag-com {
+  background-position: -168px -48px;
+}
+.icon-gizmodo-com {
+  background-position: -168px -72px;
+}
+.icon-goal-com {
+  background-position: -168px -96px;
+}
+.icon-gsmarena-com {
+  background-position: -168px -120px;
+}
+.icon-guardian-co-uk {
+  background-position: -168px -144px;
+}
+.icon-hellomagazine-com {
+  background-position: 0px -168px;
+}
+.icon-hollywoodreporter-com {
+  background-position: -24px -168px;
+}
+.icon-huffingtonpost-com {
+  background-position: -48px -168px;
+}
+.icon-ibtimes-com {
+  background-position: -72px -168px;
+}
+.icon-inc-com {
+  background-position: -96px -168px;
+}
+.icon-independent-co-uk {
+  background-position: -120px -168px;
+}
+.icon-informationweek-com {
+  background-position: -144px -168px;
+}
+.icon-latimes-com {
+  background-position: -168px -168px;
+}
+.icon-linuxjournal-com {
+  background-position: -192px 0px;
+}
+.icon-livescience-com {
+  background-position: -192px -24px;
+}
+.icon-maclife-com {
+  background-position: -192px -48px;
+}
+.icon-macworld-com {
+  background-position: -192px -72px;
+}
+.icon-marketwatch-com {
+  background-position: -192px -96px;
+}
+.icon-maximumpc-com {
+  background-position: -192px -120px;
+}
+.icon-mediaite-com {
+  background-position: -192px -144px;
+}
+.icon-miamiherald-com {
+  background-position: -192px -168px;
+}
+.icon-mlb-com {
+  background-position: 0px 0px;
+}
+.icon-msn-com {
+  background-position: -24px -192px;
+}
+.icon-msnbc-com {
+  background-position: -48px -192px;
+}
+.icon-mtv-co-uk {
+  background-position: -72px -192px;
+}
+.icon-mtv-com {
+  background-position: -96px -192px;
+}
+.icon-nationalgeographic-com {
+  background-position: -120px -192px;
+}
+.icon-nationalreview-com {
+  background-position: -144px -192px;
+}
+.icon-nbcnews-com {
+  background-position: -168px -192px;
+}
+.icon-nbcsports-com {
+  background-position: -192px -192px;
+}
+.icon-newscientist-com {
+  background-position: -216px 0px;
+}
+.icon-nhl-com {
+  background-position: -216px -24px;
+}
+.icon-nj-com {
+  background-position: -216px -48px;
+}
+.icon-nme-com {
+  background-position: -216px -72px;
+}
+.icon-npr-org {
+  background-position: -216px -96px;
+}
+.icon-nydailynews-com {
+  background-position: -216px -120px;
+}
+.icon-nymag-com {
+  background-position: -216px -144px;
+}
+.icon-nypost-com {
+  background-position: -216px -168px;
+}
+.icon-nytimes-com {
+  background-position: -216px -192px;
+}
+.icon-pcgamer-com {
+  background-position: 0px -216px;
+}
+.icon-pcmag-com {
+  background-position: -24px -216px;
+}
+.icon-pcworld-com {
+  background-position: -48px -216px;
+}
+.icon-people-com {
+  background-position: -72px -216px;
+}
+.icon-philly-com {
+  background-position: -96px -216px;
+}
+.icon-pitchfork-com {
+  background-position: -120px -216px;
+}
+.icon-politico-com {
+  background-position: -144px -216px;
+}
+.icon-popsci-com {
+  background-position: -168px -216px;
+}
+.icon-rantsports-com {
+  background-position: -192px -216px;
+}
+.icon-rawstory-com {
+  background-position: -216px -216px;
+}
+.icon-redorbit-com {
+  background-position: -240px 0px;
+}
+.icon-reuters-com {
+  background-position: -240px -24px;
+}
+.icon-rollingstone-com {
+  background-position: -240px -48px;
+}
+.icon-sciencemag-org {
+  background-position: -240px -72px;
+}
+.icon-sciencenews-org {
+  background-position: -240px -96px;
+}
+.icon-sfgate-com {
+  background-position: -240px -120px;
+}
+.icon-si-com {
+  background-position: -240px -144px;
+}
+.icon-sky-com {
+  background-position: -240px -168px;
+}
+.icon-slashgear-com {
+  background-position: -240px -192px;
+}
+.icon-slate-com {
+  background-position: -240px -216px;
+}
+.icon-smithsonianmag-com {
+  background-position: 0px -240px;
+}
+.icon-spin-com {
+  background-position: -24px -240px;
+}
+.icon-standard-co-uk {
+  background-position: -48px -240px;
+}
+.icon-techcrunch-com {
+  background-position: -72px -240px;
+}
+.icon-technologyreview-com {
+  background-position: -96px -240px;
+}
+.icon-techradar-com {
+  background-position: -120px -240px;
+}
+.icon-techrepublic-com {
+  background-position: -144px -240px;
+}
+.icon-techspot-com {
+  background-position: -168px -240px;
+}
+.icon-telegraph-co-uk {
+  background-position: -192px -240px;
+}
+.icon-theatlantic-com {
+  background-position: -216px -240px;
+}
+.icon-theblaze-com {
+  background-position: -240px -240px;
+}
+.icon-theguardian-com {
+  background-position: -264px 0px;
+}
+.icon-thenextweb-com {
+  background-position: -264px -24px;
+}
+.icon-thetimes-co-uk {
+  background-position: -264px -48px;
+}
+.icon-theverge-com {
+  background-position: -264px -72px;
+}
+.icon-theweek-com {
+  background-position: -264px -96px;
+}
+.icon-thewrap-com {
+  background-position: -264px -120px;
+}
+.icon-time-com {
+  background-position: -264px -144px;
+}
+.icon-tmz-com {
+  background-position: -264px -168px;
+}
+.icon-tv-com {
+  background-position: -264px -192px;
+}
+.icon-usatoday-com {
+  background-position: -264px -216px;
+}
+.icon-usmagazine-com {
+  background-position: -264px -240px;
+}
+.icon-variety-com {
+  background-position: 0px -264px;
+}
+.icon-vh1-com {
+  background-position: -24px -264px;
+}
+.icon-vice-com {
+  background-position: -48px -264px;
+}
+.icon-voanews-com {
+  background-position: -72px -264px;
+}
+.icon-vox-com {
+  background-position: -96px -264px;
+}
+.icon-washingtonexaminer-com {
+  background-position: -120px -264px;
+}
+.icon-washingtonpost-com {
+  background-position: -144px -264px;
+}
+.icon-washingtontimes-com {
+  background-position: -168px -264px;
+}
+.icon-wired-com {
+  background-position: -192px -264px;
+}
+.icon-wnd-com {
+  background-position: -216px -264px;
+}
+.icon-wsj-com {
+  background-position: -240px -264px;
+}
+.icon-yahoo-com {
+  background-position: -264px -264px;
+}
